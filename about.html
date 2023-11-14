@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #EC5800;
+            color : #ffffff
+        }
+
+        section {
+            max-width: 800px;
+            margin: auto;
+            margin-bottom: 300px;
+        }
+
+        img {
+            max-width: 40%;
+            height: auto;
+        }
+        
+      
+        
+      /* Your existing styles go here */ /* Menu icon styles */ .menu-icon { display: none; /* Hide by default on larger screens */ cursor: pointer; font-size: 34px; color: #0000FF; } /* Responsive styles for smaller screens */ @media screen and (max-width: 768px) { .menu-icon { display: block; /* Show on smaller screens */ } nav { display: none; /* Hide the navigation menu by default */ } nav.active { display: block; /* Show the navigation menu when active */ } }
+          
+        
+          
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>About Us</h1>
+    </header>
+
+     <div class="menu-icon" onclick="toggleMenu()">&#9776;</div> <!-- ☰ is the Unicode character for the "hamburger" icon -->
+    
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="terms.html">Terms and Conditions</a>
+        
+        <!-- Add more navigation links as needed -->
+    </nav>
+    
+
+
+    <section>
+      <pre> <h2 style ="color:blue;"><big>Welcome to
+        Omkar E-commerce</big></h2> </pre>
+       <p style ="color:red;"> <b>At Omkar E-commerce, we believe in providing an exceptional online shopping experience. Our passion
+            for quality products and outstanding customer service drives everything we do.</p></b> 
+
+        <h2 style ="color:#000080">Our Story</h2>
+       <p style ="color:orange;"><b>Founded in [2023], [Omkar E-commerce] started with a simple idea: to make shopping for [WEBSITE,MOBILES, LAPTOP, CPU, ETC....] convenient, enjoyable, and affordable. Over the years, we have grown into a trusted destination
+            for [ALL ARE GOOD AND NEW PRODUCT].</p> </b>
+
+        <h2 style ="color:purple;">Our Mission</h2>
+      <b>  <p style ="color:#893101;">Our mission is to popular website like :- <b style ="color:#FFA500;">FLIPKART AND AMAZON</b>. We are committed to delivering time to time our customers, ensuring they have access to the best products and a seamless shopping experience.</p></b>
+
+         <h2 style ="color:#1134A6;">The Omkar E-commerce Difference</h2>
+      <b>  <p style ="color:#BE5504;">What sets us apart? It's our dedication to quality, innovation, and customer satisfaction. We carefully
+            curate our collection to bring you the latest trends and timeless classics, all while providing excellent
+            value for money.</p> </b>
+
+        <h2 style ="color:#1C2951;">Meet the Team</h2>
+     <b>   <p style ="color: #DD571C;">We are a team of passionate individuals who love what we do. From our customer service representatives to
+            our dedicated warehouse team, each member plays a crucial role in ensuring your satisfaction. Get to know
+            the faces behind [Omkar E-commerce].</p></b>
+
+        <img src="https://w0.peakpx.com/wallpaper/86/877/HD-wallpaper-i-am-single-standing-art.jpg" alt="Team Photo"> <big><b>TEAM'S PHOTO</b></big>
+
+        <h2 style ="color: #010137;">Contact Us</h2>
+        <p style ="color: #FF8488;">Have questions or suggestions? We'd love to hear from you! Reach out to our friendly customer support team
+            at [OmkarEcommerce2345@gmail.com] or give us a call at [NOW NOT AVAILABLE]. Your feedback is valuable to
+            us.</p> <br>
+    </section>
+    
+
+    
+    <script>
+        // JavaScript function to toggle the menu on small screens
+        function toggleMenu() {
+            var nav = document.querySelector('nav');
+            nav.classList.toggle('active');
+        }
+    </script>
+    
+
+</body>
+
+</html>
